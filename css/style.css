@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Italic";
+    src: url(../fonts/Lato-Italic.ttf)
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "Lato-Regular";
+    background-color: rgb(186, 197, 219);
+}
+
+article {
+    display: inline-block;
+    width: 666px;
+    height: 383px;
+    border-radius: 24px;
+    background-color: rgb(53, 58, 69);
+    margin-top: 104px;
+}
+
+img {
+    margin-top: -48px;
+}
+
+header p {
+    font-family: "Lato-Bold";
+    font-size: 48px;
+    color: rgb(83, 143, 255);
+    margin-top: 20px;   
+}
+
+section p {
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    margin-top: 40px;
+}
+
+[type="email"] {
+    width: 371px;
+    height: 52px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(169, 169, 169);
+    padding-left: 18px;
+    margin-right: 4px;
+}
+
+[type="button"] {
+    width: 161px;
+    height: 52px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(83, 143, 255);
+    font-family: "Lato-Bold";
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    font-family: "Lato-Italic";
+    font-size: 20px;
+    color: rgb(169, 169, 169);
+    margin-top: 34px;
+}
